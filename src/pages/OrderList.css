@@ -1,0 +1,11 @@
+.order__list__image {
+  width: 25px;
+}
+.order__list__seconddiv {
+  display: flex;
+  justify-content: space-around;
+}
+.order__item__second__header {
+  display: flex;
+  justify-content: space-between;
+}

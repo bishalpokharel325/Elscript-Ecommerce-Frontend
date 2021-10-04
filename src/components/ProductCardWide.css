@@ -1,0 +1,72 @@
+.product__card__wide {
+  display: flex;
+  width: 100%;
+  cursor: pointer;
+  max-height: 200px;
+  padding: 0 10px;
+}
+.product__card__wide:hover {
+  background-color: #eaeded;
+  border-radius: 5px;
+}
+.card__wide__left {
+  display: flex;
+  width: 100%;
+}
+.card__wide__right {
+  display: flex;
+  justify-content: right;
+}
+.card__left__description {
+  padding: 15px 15px;
+  margin: 20px 20px;
+}
+.card__left__description p {
+  font-size: 13px;
+  max-width: 50%;
+}
+.card__left__description .MuiSvgIcon-root {
+  color: darkorange;
+}
+.card__left__description .rating_div {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+}
+.card__wide__left .card__image {
+  width: 150px !important;
+  height: 200px !important;
+  background-color: yellow;
+  background: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.card__wide__left .description {
+  max-height: 50%;
+  overflow: hidden;
+  font-size: 12px;
+  margin: 10px 10px;
+}
+.card__wide__right h2 {
+  margin-right: 50px;
+}
+.card__wide__right {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+.card__wide__cartarea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card__wide__cartarea button {
+  padding: 5px 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.card__wide__cartarea h3,
+p {
+  margin: 0px 5px;
+}

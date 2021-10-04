@@ -1,0 +1,72 @@
+.app__body {
+  background-color: #eaeded;
+  padding: 15px 0px;
+  display: flex;
+}
+.app__right__top {
+  position: sticky;
+  top: 10%;
+  background-color: white;
+  z-index: 99;
+}
+.app__body__right {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  background-color: white;
+  margin: 0px 15px;
+  width: 100%;
+  box-shadow: 0px 8px 5px -9px rgba(0, 0, 0, 0.75);
+}
+.app__right__bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  overflow: scroll;
+  max-height: 100%;
+}
+.right__second__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+.right__header {
+  margin: 10px 0px;
+}
+.right__sortarea {
+  display: flex;
+  align-items: center;
+  margin: 0px 50px;
+}
+.right__sortarea select {
+  margin: 0 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: darkorange;
+  border: darkorange 2px solid;
+}
+.view__area {
+  display: flex;
+  align-items: center;
+}
+.view__area .MuiSvgIcon-root {
+  font-size: 30px;
+  margin: 0 5px;
+}
+.view__area .view__icon__selected {
+  color: darkorange !important;
+}
+.view__area button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.view__area button:hover {
+  background-color: lightgray;
+}
+.app__right__bottom a {
+  text-decoration: none;
+  color: inherit;
+}

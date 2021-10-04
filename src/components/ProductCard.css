@@ -1,0 +1,42 @@
+.product__card {
+  margin: 10px 0px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.card__image {
+  width: 150px;
+  height: 200px;
+  background: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.product__card h3 {
+  color: green;
+}
+.product__card h3,
+h5 {
+  max-width: 150px;
+}
+.product__card .MuiSvgIcon-root {
+  color: darkorange;
+}
+.wish__icon {
+  margin: 10px;
+  color: black !important;
+}
+.product__card:hover {
+  background-color: #eaeded;
+  transform: scale(1.02);
+  border-radius: 5px;
+}
+.wish__icon:hover {
+  transform: scale(1.5);
+}
+.rating__div {
+  display: flex;
+  align-items: center;
+}
+.rating__number {
+  font-size: 12px;
+}

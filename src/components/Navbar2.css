@@ -1,0 +1,127 @@
+.navbar2 {
+  display: flex;
+  justify-content: center;
+  position: sticky !important;
+  top: 0px;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 8px 5px -9px rgba(0, 0, 0, 0.75);
+  z-index: 999;
+}
+.navbar__left {
+}
+.navbar__left img {
+  height: 60px;
+  margin-right: 50px;
+}
+.navbar__middle {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background-color: white;
+  border: solid 2px darkorange;
+}
+.navbar__middle input {
+  border: none;
+  outline: none;
+  padding: 12px;
+  border-radius: 10px;
+  width: 500px;
+}
+.navbar__middle__button {
+  background-color: orange;
+  height: 50px;
+  width: 50px;
+}
+.navbar__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-decoration: none;
+  color: inherit;
+}
+.navbar__right a {
+  text-decoration: none;
+  color: inherit;
+}
+.navbar__right__cart {
+  display: flex;
+  align-items: center;
+  margin: 0 0px 0px 50px;
+  padding: 0px 10px;
+  cursor: pointer;
+  height: 60px;
+  border: solid 2px white;
+}
+.navbar__right__signin {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 60px;
+  border: solid 2px white;
+}
+.navbar__right__cart p {
+  background-color: red;
+  padding: 2px;
+  color: white;
+  border-radius: 500px;
+  margin-bottom: 40px;
+  margin-right: 5px;
+  margin-top: 5px;
+  font-size: 13px !important;
+}
+.navbar__right .cart__price {
+  color: red;
+}
+.cart__icon {
+  font-size: 30px !important;
+  margin-left: 10px;
+}
+.navbar__middle button {
+  border: none;
+  background-color: inherit;
+  outline: none;
+  margin-right: 10px;
+}
+.navbar__right__signin h4 {
+  margin: 0 10px;
+}
+.navbar__right__cart:hover {
+  border: solid 2px black;
+  background-color: #eaeded !important;
+}
+.navbar__right__signin:hover {
+  border: solid 2px black;
+  background-color: #eaeded !important;
+}
+.navbar2__dropdown {
+  position: absolute;
+  display: none !important;
+  flex-direction: column;
+  top: 100%;
+  left: 79%;
+  background-color: #eaeded;
+}
+.navbar__right__signin:hover > .navbar2__dropdown {
+  position: absolute;
+  display: flex !important;
+  flex-direction: column;
+  top: 95%;
+  left: 79.5%;
+  background-color: lightgray;
+}
+.navbar__middle__icon {
+  text-decoration: none;
+  color: inherit;
+}
+.navbar2__dropdown a {
+  text-decoration: none;
+  color: inherit;
+  padding: 5px;
+  display: block;
+  padding: 10px 43px;
+}
+.navbar2__dropdown a:hover {
+  transform: scale(1.05);
+  background-color: white;
+}

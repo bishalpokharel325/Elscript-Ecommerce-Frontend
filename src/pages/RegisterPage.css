@@ -1,0 +1,16 @@
+.register__body {
+  background-color: #eaeded;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.register__form {
+  background-color: white;
+  margin: 25px;
+  padding: 20px;
+  box-shadow: 0px 8px 5px -9px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+}
+.register__form a {
+  display: block;
+}
